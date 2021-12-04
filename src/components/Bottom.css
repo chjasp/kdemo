@@ -1,0 +1,99 @@
+.bottom-outer {
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    /*
+    width: 86%;
+    height:25%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    overflow: hidden; */
+
+    /* height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(#EEF1F8, #D5D8DF); */
+
+}
+
+/* height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(#EEF1F8, #D5D8DF); */
+
+.bottom-card {
+
+    overflow: visible;
+
+}
+
+.shoeshow {
+
+    height: 120px;
+    width: 250px;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+
+    overflow: auto;
+
+    border-radius: 1rem;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.20) 0px 13px 23px -0px;
+}
+
+.bottom-control {
+    overflow: visible;
+    height: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border-radius: 1rem;
+    background: white;
+    box-shadow: rgba(50, 50, 93, 0.20) 0px 13px 23px -0px;
+
+
+
+    /* background: url("./backgr.png");
+    background-position: center;
+    background-size: cover; */
+    overflow: auto;
+    /* 
+    position: relative;
+    z-index: 2; */
+}
+
+.ctrl-btn {
+    width: 50%;
+    font-weight: 900;
+    height: 2rem;
+    border-radius: 0.8rem;
+    background: linear-gradient(140deg, #FC3FB7, #CA0EE7);
+    box-shadow: #FC3FB7 0px 7px 20px -5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+}

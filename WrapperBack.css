@@ -1,0 +1,105 @@
+.div-wrapper {
+    height: 550px;
+    width: 300px;
+    border-radius: 3rem;
+
+    display: flex; 
+    align-items: center; 
+    flex-flow: column;
+
+    background: white;
+    overflow: visible;
+
+    position: relative;
+
+}
+
+.outer-wrap.back {
+    height: 400px;
+    width: 400px;
+    border-radius: 3rem;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column; */
+
+    position: relative;
+    background: blue;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+}
+
+/* .invisible {
+    height: 200px;
+    opacity: 0;
+} */
+
+.pic {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 
+    /* align-self: center;
+    animation: fadeIn linear 3s;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s; */
+}
+
+.pic.zoom2 {
+    zoom: 2;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
